@@ -1,0 +1,152 @@
+🧠 3 Questions on Python Language & Features
+
+1. What is Python used for?
+A. Making games
+B. Making websites
+C. Doing math
+D. All of the above
+ANS:- D all of the above
+1/1
+
+2. What symbol is used to write comments in Python?
+A. //
+B. <!--
+C. #
+D. **
+ANS:- C #
+2/2
+
+
+3. What is the correct way to print something in Python?
+A. echo "Hello"
+B. say("Hello")
+C. print("Hello")
+D. write("Hello")
+ANS:- C print("Hello")
+3/3
+
+
+---
+
+💻 12 Coding Questions
+
+🔤 Variables
+
+4. Fix the error in this code:
+
+
+
+name = "Sara"
+print(name)
+5/5
+5. What will this code print?
+
+
+
+a = 5
+b = 3
+print(a + b)
+ANS:-8
+7/7
+🔁 Loops
+
+6. Write a loop to print numbers 1 to 5.
+for i in range(1, 6):
+    print(i)
+10/10
+
+
+7. Fix this loop to print "Hello" 3 times:
+for i in range(3):
+    print("hello")
+13/13
+
+for i in range(3)
+    print("Hello")
+
+🔍 If/Else
+
+8. Complete the code to check if a number is even:
+
+
+
+num = 4
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+15/15
+
+9. What will this code print?
+
+
+
+age = 10
+if age > 12:
+    print("Teen")
+else:
+    print("Kid")
+
+ANS:-kid
+15/17
+🎲 Random
+
+10. Complete the code to print a random number between 1 and 10:
+import random
+number=random.randint(1 , 10)
+print(number)
+
+
+
+import random
+num = random.________(1, 10)
+print(num)
+17/19
+11. Write a code that randomly chooses a fruit from a list:
+
+
+
+import random
+fruits = ["apple", "banana", "mango"]
+# your code here
+fruit=random.choice(fruits)
+print(fruit)
+20/22
+📃 Lists
+
+12. What will this code print?
+
+
+
+colors = ["red", "blue", "green"]
+print(colors[1])
+ANS:-blue
+22/24
+13. Add a new color "yellow" to this list:
+
+
+
+colors = ["red", "blue"]
+# your code here
+colors.append("yellow")
+24/26
+🧠 Functions
+
+14. Complete the function to add two numbers:
+
+
+
+def add(a, b):
+    # your code here
+    print(a+b)
+print(add(3, 5))
+24/28
+15. Debug this code (there is a small mistake):
+
+
+
+def greet():
+    print("Hello!")
+
+greet()
+26/30
